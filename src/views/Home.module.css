@@ -1,0 +1,171 @@
+.divTituloCategoria {
+  height: 50px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  border-bottom: 2px solid #979797;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.divTituloCategoria input {
+  max-width: 250px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+
+.divTituloCategoria input:hover {
+  background-color: #313131;
+  border-radius: 0;
+  padding: 6px;
+}
+
+.card {
+  width: 290px;
+  min-height: 96px;
+  /* border-radius: 6px; */
+  margin: 16px auto;
+  padding: 8px 10px 16px 10px;
+  background-color: #393939;
+  border: 3px solid #4a4a4a;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 1px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.divTituloCard {
+  height: 22px;
+  margin: 0 auto;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.divTituloCard input {
+  width: 190px;
+  height: 22px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #979797;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+
+.divTituloCard input:hover {
+  background-color: #313131;
+  border-radius: 0;
+  height: 30px;
+  margin-top: -8px;
+  padding-top: 8px;
+}
+
+.divTituloCard label input {
+  display: none;
+}
+
+.divTituloCard label svg {
+  margin-left: 17px;
+  width: 25px;
+  height: 24px;
+  color: #fd1553;
+}
+
+.divItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divItem label input {
+  /* display: none; */
+  position: absolute;
+  top: -8px;
+  left: -140px;
+}
+
+.divItem label {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.divItem input {
+  width: 190px;
+  margin: 8px 0 8px 46px;
+  height: 20px;
+  font-size: 0.875rem;
+  background-color: transparent;
+  color: white;
+}
+
+.divItem input:hover {
+  background-color: #313131;
+  border-radius: 0;
+  padding: 6px 0;
+}
+
+.divItem input:focus {
+  border-bottom: 1px solid #979797;
+  margin-right: 10px;
+}
+
+.divItem button {
+  height: 26px;
+  padding: 1px;
+  background: none;
+  color: #979797;
+  cursor: pointer;
+}
+
+.divItem button:focus {
+  outline: none;
+}
+
+.divItem button:hover {
+  width: 28px;
+  height: 28px;
+  padding-top: 2px;
+  border-radius: 50%;
+  background-color: #313131;
+}
+
+.divItem button svg {
+  height: 26px;
+  width: 26px;
+}
+
+.buttonAdicionar {
+  margin-left: 236px;
+  height: 26px;
+  padding: 1px;
+  background: none;
+  color: #979797;
+  cursor: pointer;
+}
+
+.buttonAdicionar svg {
+  height: 26px;
+  width: 26px;
+}
+
+.buttonAdicionar:hover {
+  width: 28px;
+  height: 28px;
+  padding-top: 1px;
+  border-radius: 50%;
+  background-color: #313131;
+}
+
+.buttonAdicionar:focus {
+  outline: none;
+}

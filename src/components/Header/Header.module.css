@@ -1,0 +1,17 @@
+header {
+  height: 96px;
+  border-bottom: 3px solid #979797;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14), 0 3px 4px rgba(0, 0, 0, 0.12),
+    0 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.menu {
+  width: 66px;
+  height: 44px;
+  color: #fd1553;
+  margin-right: 70px;
+}
